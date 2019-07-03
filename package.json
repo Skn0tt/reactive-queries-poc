@@ -9,10 +9,14 @@
     "start": "npx ts-node src/index.ts"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.135",
+    "@types/uuid": "^3.4.5",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "rxjs": "^6.5.2"
+    "lodash": "^4.17.11",
+    "rxjs": "^6.5.2",
+    "uuid": "^3.3.2"
   }
 }
